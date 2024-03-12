@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 import org.testng.annotations.Test;
 
-public class BinarySearch {
+public class BinarySearchTest {
 	@Test
-	public void binary() {
+	public void binaryTest() {
 		int a[] = { 10, 20, 50, 40, 44 };
 		Arrays.sort(a);
 		int low = 0;
