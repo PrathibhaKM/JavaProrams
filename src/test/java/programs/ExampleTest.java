@@ -3,14 +3,18 @@ package programs;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
 
-public class Example {
-	public void openChrome()
+public class ExampleTest {
+	@Test
+	public void openChromeTest()
 	{
 		WebDriver driver=new ChromeDriver();
 		
+		
 	}
-	public void openFirefox()
+	@Test
+	public void openFirefoxTest()
 	{
 		WebDriver driver1=new FirefoxDriver();
 	}
