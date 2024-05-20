@@ -11,7 +11,7 @@ public class BinarySearchTest {
 		Arrays.sort(a);
 		int low = 0;
 		int high = a.length - 1;
-		int key = 49;
+		int key = 20;
 		
 		int c = 0;
 
